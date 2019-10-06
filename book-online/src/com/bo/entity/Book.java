@@ -12,12 +12,13 @@ public class Book {
     private String name;
     private String cover;
     private String author;
-
-    public Book(Integer id, String name, String cover, String author) {
+    private String detail;
+    public Book(Integer id, String name, String cover, String author, String detail) {
         this.id = id;
         this.name = name;
         this.cover = cover;
         this.author = author;
+        this.detail = detail;
     }
 
     public Book() {
@@ -55,6 +56,13 @@ public class Book {
         this.author = author;
     }
 
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail;
+    }
 
     @Override
     public String toString() {
@@ -62,6 +70,7 @@ public class Book {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", cover='" + cover + '\'' +
+                ", detail='" +detail+'\'' +
                 '}';
     }
 }
