@@ -60,10 +60,10 @@ a:hover {
 }
 
 #top {
-    height: 50px;
-    background: linear-gradient(to bottom, rgb(145, 101, 144), rgb(151, 110, 157));
-    color: #d5d5d5;
-    font-size: 14px;
+    height: 80px;
+    background: linear-gradient(to bottom,darkseagreen,darkseagreen);
+    color: lightcoral;
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -64,7 +64,7 @@
 
         hr {
             width: 90%;
-            color: #eee;
+            color: whitesmoke;
             margin-top: 10px;
         }
     </style>
@@ -92,7 +92,7 @@
     <div class="row">
         <%--左侧2/3主体部分--%>
         <div class="col-8">
-            <h3>新书速递</h3>
+            <h3>好书推荐</h3>
             <hr>
             <div class="row">
                 <%--遍历图书数据集合，将每个图书对象放入页面对象--%>
